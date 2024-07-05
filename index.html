@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+    <div class="body-container">
+        <div class="header">
+            <div class="header-container">
+                <img src="/assets/images/search-icon.svg" alt="">|
+                <span>LOGIN</span>|
+                <span>REGISTER</span>|
+                <span>MY CART [1]</span>
+            </div>
+            <div class="logo">
+                <div class="logo-main">
+                    <img src="/assets/images/logo.png" alt="">
+                </div>
+                <div class="logo-icon">
+                    <img src="/assets/images/icons8-twitter.svg" alt="">
+                    <img src="/assets/images/icons8-facebook.svg" alt="">
+                    <img src="/assets/images/icons8-pinterest.svg" alt="">
+                    <img src="/assets/images/icons8-instagram.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="nav">
+                <nav class="menu__pc">
+                    <ul class="nav__list">
+                        <li class="nav__link">PAINT</li>
+                        <li class="nav__link">PAINT SUPPLIES</li>
+                        <li class="nav__link">VINTAGE WARES</li>
+                        <li class="nav__link">SUITE GOODS</li>
+                        <li class="nav__link">HOW-TO</li>
+                        <li class="nav__link">EVENTS & WORKSHOPS</li>
+                        <li class="nav__link">SUITE INSPIRATION</li>
+                    </ul>
+                </nav>
+                <label for="nav-mobile-input" class="nav__bars-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path
+                            d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+                    </svg>
+                </label>
+
+                <input type="checkbox" hidden name="" class="nav__input" id="nav-mobile-input">
+
+                <label for="nav-mobile-input" class="nav__overlay"></label>
+
+                <nav class="menu__mobile">
+                    <label for="nav-mobile-input" class="nav__mobile-close"><svg xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 512 512">
+                            <path
+                                d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c9.4-9.4 24.6-9.4 33.9 0l47 47 47-47c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-47 47 47 47c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-47-47-47 47c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l47-47-47-47c-9.4-9.4-9.4-24.6 0-33.9z" />
+                        </svg></label>
+                    <ul class="nav__mobile-list">
+                        <li class="nav__mobile-link" id="paint-toggle">PAINT</li>
+                        <li class="nav__mobile-link" id="">PAINT SUPPLIES</li>
+                        <li class="nav__mobile-link" id="">VINTAGE WARES</li>
+                        <li class="nav__mobile-link" id="">SUITE GOODS</li>
+                        <li class="nav__mobile-link" id="">HOW-TO</li>
+                        <li class="nav__mobile-link" id="">EVENTS & WORKSHOPS</li>
+                        <li class="nav__mobile-link" id="">SUITE INSPIRATION</li>
+                    </ul>
+                </nav>
+            </div>
+            <P class="main-p">We are a vintage furniture & decorative paint boutique. Our stores are filled with
+                carefully curated items
+                and creatively restored pieces. We have the knowledge to help you turn found objects into special pieces
+                that define your space. Let the journey begin!</P>
+            <hr style="margin-bottom: 20px;">
+            <div class="slider">
+                <img id="img" src="/assets/images/work-shop.png" alt="">
+                <img id="img" src="/assets/images/work-shop1.png" alt="">
+                <img id="img" src="/assets/images/work-shop2.png" alt="">
+                <img id="img" src="/assets/images/work-shop3.png" alt="">
+                <button class="prev" onclick="prevImage()">&#10094;</button>
+                <button class="next" onclick="nextImage()">&#10095;</button>
+            </div>
+            <hr style="margin-top: 22px;">
+            <hr style="margin-top: 46px;">
+            <div class="main-container">
+                <span>SUITE INSPIRATION
+                    <img src="/assets/images/inspiration.png" alt="">
+                    <p>Showcase pieces
+                        and our portfolio
+                    </p>
+                </span>
+                <span>WORKSHOPS & EVENTS
+                    <img src="/assets/images/workshop.png" alt="">
+                    <p>Our Workshop and
+                        Events page
+                    </p>
+                </span>
+                <span>HOW TO
+                    <img src="/assets/images/howto.png" alt="">
+                    <p>Information on our
+                        decorative paint
+                        products
+                    </p>
+                </span>
+                <span>MULTIPLE LOCATIONS
+                    <img src="/assets/images/location.png" alt="">
+                    <p>Stop by one of our shops
+                        in Huntington Station or
+                        Brooklyn, NY.
+                    </p>
+                </span>
+            </div>
+            <hr>
+            <div class="main-image">
+                <img src="/assets/images/shop.png" alt="">
+                <img src="/assets/images/studio.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-container">
+            <span>STORES
+                <P>
+                    HUNTINGTON
+                    1038 New York Ave. Huntington Station,
+                    NY 11746 *located inside Yankee Peddler
+                    631-560-9759
+                </P>
+                <p>
+                    BROOKLYN
+                    162 Huron Street, Brooklyn, NY 11222
+                    347-987-3586
+                </p>
+            </span>
+            <span>
+                ABOUT US
+                <p>
+                    At Suite Pieces we believe not all vintage is created equal.Although
+                    we find great pieces that needonly be admired, wefind many others
+                    that are in need of tender love & care.Whether they are tooblemished
+                    to be worth repair or are simply the wrong color
+                </p>
+                <p>
+                    <img src="/assets/images/icons8-twitter.svg" alt="">
+                    <img src="/assets/images/icons8-facebook.svg" alt="">
+                    <img src="/assets/images/icons8-pinterest.svg" alt="">
+                    <img src="/assets/images/icons8-instagram.svg" alt="">
+                </p>
+            </span>
+            <span>
+                JOIN OUR NEWSLETTER
+                <div class="input-with-bg">
+                    <input type="text" placeholder="EMAIL">
+                </div>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </span>
+        </div>
+        <div class="footer-menu">
+            <span>CONTACT US</span>|
+            <span>PRESS</span>|
+            <span>PRIVACY POLYCY</span>|
+            <span>TERMS & CONDITIONS</span>
+        </div>
+    </div>
+    <script src="/assets/js/script.js"></script>
+</body>
+
+</html>
